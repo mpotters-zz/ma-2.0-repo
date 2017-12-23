@@ -70,8 +70,8 @@ html {
 
 .container-fluid {
     margin: 0 auto;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .big-title {
@@ -159,7 +159,7 @@ p {
 }
 
 .link-selector-inline {
-    border-bottom: 3px solid rgba(90, 77, 174, 0);
+    border-bottom: 2px solid rgba(90, 77, 174, 0);
     -webkit-transition: border 0.2s ease;
     -moz-transition: border 0.2s ease;
     -ms-transition: border 0.2s ease;
@@ -168,7 +168,7 @@ p {
 }
 
 .link-selector-inline:hover {
-    border-bottom: 3px solid rgba(90, 77, 174, 1);
+    border-bottom: 2px solid rgba(90, 77, 174, 1);
 }
 
 .link-selector-footer {
@@ -243,6 +243,10 @@ p {
     min-height: 1px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.column-full>p:first-child {
+    margin-top: 0px;
 }
 
 .column-full>p {
@@ -448,4 +452,36 @@ independent-artist
 .ia-text {
     padding-left: 350px;
 }
+
+/*iPads ----------- */
+@media screen and (min-width: 768px) {
+    .container-fluid {
+        margin: 0 auto;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    .img-placeholder>iframe {
+        height: 500px !important;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media screen and (min-width: 1224px) {
+    .container-fluid {
+        margin: 0 auto;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .img-placeholder>iframe {
+        height: 750px !important;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+/* Styles */
+}
+
 
