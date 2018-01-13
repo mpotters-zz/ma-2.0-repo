@@ -1,7 +1,4 @@
 $( document ).ready(function() {
-   // $( "i.volume-up" ).click(function() {
-   // $( this ).toggleClass( "volume-off" );
-
    // Select all links with hashes
   $('a[href*="#"]')
     // Remove links that don't actually link to anything

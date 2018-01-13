@@ -1,28 +1,4 @@
-/*@font-face {
-    font-family: 'Suisse';
-    src: url("/assets/fonts/SuisseIntl-Book-WebXL.eot");
-    src: url("/assets/fonts/SuisseIntl-Book-WebXL.eot?#iefix") format("embedded-opentype"),url("/assets/fonts/SuisseIntl-Book-WebXL.woff2") format("woff2"),url("/assets/fonts/SuisseIntl-Book-WebXL.woff") format("woff"),url("/assets/fonts/SuisseIntl-Book-WebXL.ttf") format("truetype"),url("/assets/fonts/SuisseIntl-Book-WebXL.svg") format("svg");
-    font-weight: 400;
-    font-style: normal
-}*/
-
-/*.img-placeholder video { 
-  position:relative;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 100;
-}*/
-
 .img-placeholder video {
-    /*position: relative;
-    min-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 100;
-    object-fit: fill;*/
     min-width: 100%;
     max-width: 100%;
     width: auto;
@@ -100,14 +76,9 @@ html {
 }
 
 .big-title {
-    /*font-family: 'Roboto', sans-serif;*/
-    /*font-family: 'm-1c',sans-serif;*/
-    /*font-family: 'Suisse', sans-serif;*/
     font-family: 'adelle-sans',sans-serif;
-    /*font-weight: 700;*/
     font-size: 55px;
     letter-spacing: 0.02em;
-    /*color: #717AA1; */
     color: #2A2B33;
     max-width: 70vw;
     margin-top: 25px;
@@ -128,26 +99,22 @@ html {
 .big-title>a:hover, a:active { text-decoration: none; color:#858A9C }
 
 h2 {
-    /*font-family: 'Roboto', sans-serif;*/
     font-family: 'adelle-sans',sans-serif;
     letter-spacing: 0.02em;
     font-size: 55px;
     color: #2A2B33;
     margin-top: 25px;
     margin-bottom: 12.5px;
-    /*padding-bottom: 30px;*/
     outline: none;
 }
 
 h3 {
-    /*font-family: 'Roboto', sans-serif;*/
     font-family: 'adelle-sans',sans-serif;
     letter-spacing: 0.02em;
     font-size: 28px;
     color: #2A2B33;
     margin-top: 12.5px;
     margin-bottom: 12.5px;
-    /*padding-bottom: 30px;*/
     outline: none;
 }
 
@@ -315,7 +282,6 @@ p {
 }
 
 .column-r>p {
-    /*font-family: 'Roboto Mono', monospace;*/
     font-family: "mplus-1m",monospace;
     font-weight: 200;
     font-size: 18px;
@@ -347,11 +313,6 @@ p {
 
 .icons>a:before {
     content: "";
-    /*position: absolute;*/
-    /*top: 5%;
-    left: 5%;
-    width: 80%;
-    height: 80%;*/
     opacity: .8;
     transition: opacity .4s ease,transform .5s ease
 }
@@ -371,7 +332,6 @@ p {
 
 .icons>a i {
     font-size: 1.8em;
-    /*color: #D5DBE1*/
     padding-left: 8px;
     padding-right: 8px;
 }
@@ -402,18 +362,6 @@ h3>a:hover { text-decoration: none; color:#858A9C; }
 h3>a:focus { text-decoration: none; color:#858A9C; }
 h3>a:hover, a:active { text-decoration: none; color:#858A9C }
 
-/*video { 
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translate(-50%, -50%);
-}*/
-
 /********************************
 music-producer
 ********************************/
@@ -426,7 +374,6 @@ music-producer
     position: absolute;
     top: 15%;
     left: 5%;
-    /*width: 100%;*/
     max-width: 85.3vw;
     z-index: 1;
     line-height: 1.2;
@@ -441,11 +388,6 @@ music-producer
     max-width: 1200px;
     text-align: left;
     padding-top: 180px;
-/*    position: relative;
-    top: 15%;
-    left: 35%;
-    width: 60%;
-    max-width: 85.3vw;*/
     z-index: 0;
     line-height: 1.4;
 }
@@ -466,7 +408,6 @@ independent-artist
     position: absolute;
     top: 15%;
     left: 5%;
-    /*width: 100%;*/
     max-width: 85.3vw;
     z-index: 1;
     line-height: 1.2;
@@ -481,11 +422,6 @@ independent-artist
     max-width: 1200px;
     text-align: left;
     padding-top: 180px;
-/*    position: relative;
-    top: 15%;
-    left: 35%;
-    width: 60%;
-    max-width: 85.3vw;*/
     z-index: 0;
     line-height: 1.4;
 }
